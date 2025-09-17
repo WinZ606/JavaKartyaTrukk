@@ -44,7 +44,6 @@ class Pakli {
         Lap[] oszlop2 = new Lap[7];
         Lap[] oszlop3 = new Lap[7];
         
-        // Oszlopok szétválasztása
         for (int i = 0; i < 7; i++) {
             oszlop1[i] = lapok[i * 3];
             oszlop2[i] = lapok[i * 3 + 1];
